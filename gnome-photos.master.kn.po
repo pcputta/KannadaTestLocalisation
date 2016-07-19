@@ -1,0 +1,950 @@
+# Kannada translation for gnome-photos.
+# Copyright (C) 2013 gnome-photos's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-photos package.
+#
+# karthik339 <karthik339@gmail.com>, 2013.
+# Shankar Prasad <prasad.mvs@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-photos gnome-3-10\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"photos&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-06-17 15:13+0000\n"
+"PO-Revision-Date: 2013-12-30 17:20+0630\n"
+"Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
+"Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:1
+#: ../data/org.gnome.Photos.desktop.in.in.h:1 ../src/photos-embed.c:685
+#: ../src/photos-search-type-manager.c:135
+msgid "Photos"
+msgstr "ಫೋಟೋಸ್"
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:2 ../src/photos-main-window.c:491
+msgid "Access, organize and share your photos on GNOME"
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:3
+msgid ""
+"A simple application to access, organize and share your photos on GNOME. It "
+"is meant to be a simple and elegant replacement for using a file manager to "
+"deal with photos. Seamless cloud integration is offered through GNOME Online "
+"Accounts."
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:4
+msgid "It lets you:"
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:5
+msgid "View recent local and online photos"
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:6
+msgid "Access your Facebook or Flickr content"
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:7
+msgid "Send photos to remote DLNA renderers"
+msgstr ""
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:8
+#, fuzzy
+#| msgid "Set as Background"
+msgid "Set as background"
+msgstr "ಗಣಕತೆರೆಯ ಹಿನ್ನಲೆಯಾಗಿಸು"
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:9
+#, fuzzy
+#| msgid "Photos"
+msgid "Print photos"
+msgstr "ಫೋಟೋಸ್"
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:10
+#, fuzzy
+#| msgid "Add to favorites"
+msgid "Select favorites"
+msgstr "ಅಚ್ಚುಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸು"
+
+#: ../data/org.gnome.Photos.appdata.xml.in.h:11
+msgid "Allow opening full featured editor for more advanced changes"
+msgstr ""
+
+#: ../data/org.gnome.Photos.desktop.in.in.h:2
+msgid "Access, organize and share photos"
+msgstr ""
+
+#: ../data/org.gnome.Photos.desktop.in.in.h:3
+msgid "Photos;Pictures;"
+msgstr "ಫೋಟೋಗಳು;ಚಿತ್ರಗಳು;"
+
+#: ../data/org.gnome.photos.gschema.xml.h:1
+msgid "Window size"
+msgstr "ಕಿಟಕಿಯ ಗಾತ್ರ"
+
+#: ../data/org.gnome.photos.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "ಕಿಟಕಿಯ ಗಾತ್ರ (ಉದ್ದ ಮತ್ತು ಅಗಲ)"
+
+#: ../data/org.gnome.photos.gschema.xml.h:3
+msgid "Window position"
+msgstr "ಕಿಟಕಿಯ ಸ್ಥಾನ"
+
+#: ../data/org.gnome.photos.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "ಕಿಟಕಿಯ ಸ್ಥಾನ (x ಮತ್ತು y)"
+
+#: ../data/org.gnome.photos.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "ಕಿಟಕಿಯನ್ನು ಗರಿಷ್ಟಗೊಳಿಸಲಾಗಿದೆ"
+
+#: ../data/org.gnome.photos.gschema.xml.h:6
+msgid "Window maximized state"
+msgstr "ಕಿಟಕಿಯನ್ನು ಗರಿಷ್ಟಗೊಳಿಸಿದ ಸ್ಥಿತಿ"
+
+#: ../src/photos-application.c:144
+msgid "Show the application's version"
+msgstr ""
+
+#: ../src/photos-base-item.c:477
+msgid "Album"
+msgstr "ಆಲ್ಬಮ್"
+
+#: ../src/photos-base-item.c:1486
+msgid "Screenshots"
+msgstr ""
+
+#: ../src/photos-delete-notification.c:145
+#, c-format
+msgid "“%s” deleted"
+msgstr ""
+
+#: ../src/photos-delete-notification.c:148
+#, c-format
+msgid "%d item deleted"
+msgid_plural "%d items deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/photos-delete-notification.c:156
+#: ../src/photos-done-notification.c:189
+msgid "Undo"
+msgstr ""
+
+#: ../src/photos-dlna-renderers-dialog.ui.h:1
+msgid "DLNA Renderer Devices"
+msgstr ""
+
+#: ../src/photos-done-notification.c:181
+#, c-format
+msgid "“%s” edited"
+msgstr ""
+
+#: ../src/photos-embed.c:692 ../src/photos-search-type-manager.c:120
+msgid "Albums"
+msgstr "ಅಲ್ಬಮ್‌ಗಳು"
+
+#: ../src/photos-embed.c:699 ../src/photos-search-type-manager.c:128
+msgid "Favorites"
+msgstr "ಮೆಚ್ಚಿನವುಗಳು"
+
+#: ../src/photos-embed.c:706 ../src/photos-main-toolbar.c:299
+msgid "Search"
+msgstr ""
+
+#: ../src/photos-empty-results-box.c:119
+msgid "Name your first album"
+msgstr ""
+
+#. Translators: this should be translated in the context of the "You
+#. * can add your online accounts in Settings" sentence below
+#.
+#: ../src/photos-empty-results-box.c:139
+#, fuzzy
+#| msgid "Image Settings"
+msgid "Settings"
+msgstr "ಚಿತ್ರದ ಸಿದ್ಧತೆಗಳು"
+
+#. Translators: %s here is "Settings", which is in a separate string
+#. * due to markup, and should be translated only in the context of
+#. * this sentence.
+#.
+#: ../src/photos-empty-results-box.c:145
+#, c-format
+msgid "You can add your online accounts in %s"
+msgstr ""
+
+#: ../src/photos-empty-results-box.c:186
+#, fuzzy
+#| msgid "No Photos Found"
+msgid "No Albums Found"
+msgstr "ಯಾವುದೇ ಚಿತ್ರಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#: ../src/photos-empty-results-box.c:191
+msgid "Starred photos will appear here"
+msgstr ""
+
+#: ../src/photos-empty-results-box.c:197
+msgid "No Photos Found"
+msgstr "ಯಾವುದೇ ಚಿತ್ರಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#: ../src/photos-export-dialog.ui.h:1
+#, fuzzy
+#| msgid "Exposure"
+msgctxt "dialog title"
+msgid "Export"
+msgstr "ತೆರೆದಿಡುವುದು"
+
+#: ../src/photos-export-dialog.ui.h:2
+msgid "_Folder Name"
+msgstr ""
+
+#: ../src/photos-export-dialog.ui.h:3 ../src/photos-print-setup.c:942
+msgid "Size"
+msgstr "ಗಾತ್ರ"
+
+#: ../src/photos-export-dialog.ui.h:4
+msgid "F_ull"
+msgstr ""
+
+#: ../src/photos-export-dialog.ui.h:5
+msgid "_Reduced"
+msgstr ""
+
+#: ../src/photos-export-dialog.ui.h:6
+#, fuzzy
+#| msgid "Cancel"
+msgid "_Cancel"
+msgstr "ರದ್ದುಗೊಳಿಸು"
+
+#: ../src/photos-export-dialog.ui.h:7
+#, fuzzy
+#| msgid "Exposure"
+msgid "_Export"
+msgstr "ತೆರೆದಿಡುವುದು"
+
+#. Translators: this is the estimated size of the exported image in
+#. * the form "1600×1067 (0.6 GB)".
+#.
+#: ../src/photos-export-dialog.c:76
+#, c-format
+msgid "%d×%d (%s)"
+msgstr ""
+
+#. Translators: this is the default sub-directory where photos
+#. *  will be exported.
+#.
+#: ../src/photos-export-dialog.c:281
+#, fuzzy
+#| msgid "%a, %d %B %Y"
+msgid "%e %B %Y"
+msgstr "%a, %d %B %Y"
+
+#: ../src/photos-export-dialog.c:336
+msgid "Calculating export size…"
+msgstr ""
+
+#: ../src/photos-export-notification.c:241
+msgid "Failed to export: not enough space"
+msgstr ""
+
+#: ../src/photos-export-notification.c:243
+msgid "Failed to export"
+msgstr ""
+
+#: ../src/photos-export-notification.c:250
+#, c-format
+msgid "“%s” exported"
+msgstr ""
+
+#: ../src/photos-export-notification.c:254
+#, c-format
+msgid "%d item exported"
+msgid_plural "%d items exported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/photos-export-notification.c:272
+msgid "Analyze"
+msgstr ""
+
+#: ../src/photos-export-notification.c:277
+msgid "Empty Trash"
+msgstr ""
+
+#. Translators: this is the Open action in a context menu
+#: ../src/photos-export-notification.c:294 ../src/photos-preview-menu.ui.h:1
+#: ../src/photos-selection-toolbar.c:237 ../src/photos-selection-toolbar.ui.h:2
+msgid "Open"
+msgstr "ತೆರೆ"
+
+#. Translators: this is the label of the button to open the
+#. * folder where the item was exported.
+#.
+#: ../src/photos-export-notification.c:304
+msgid "Export Folder"
+msgstr ""
+
+#. Translators: this is the fallback title in the form
+#. *  "Facebook — 2nd January 2013".
+#.
+#: ../src/photos-facebook-item.c:84 ../src/photos-flickr-item.c:94
+#: ../src/photos-google-item.c:82
+#, c-format
+msgid "%s — %s"
+msgstr ""
+
+#: ../src/photos-fetch-metas-job.c:174
+msgid "Untitled Photo"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:1
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:2
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:3
+#, fuzzy
+#| msgid "Quit"
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "ನಿರ್ಗಮಿಸು"
+
+#: ../src/photos-help-overlay.ui.h:4
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:5
+msgctxt "shortcut window"
+msgid "Next photo"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:6
+msgctxt "shortcut window"
+msgid "Previous photo"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:7
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:8
+#, fuzzy
+#| msgid "Preview"
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "ಮುನ್ನೋಟ"
+
+#: ../src/photos-help-overlay.ui.h:9
+msgctxt "shortcut window"
+msgid "Search"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:10
+#, fuzzy
+#| msgid "Select All"
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr "ಎಲ್ಲವನ್ನು ಆರಿಸು "
+
+#: ../src/photos-help-overlay.ui.h:11
+msgctxt "shortcut window"
+msgid "Print selected photos"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:12
+msgctxt "shortcut window"
+msgid "Delete selected photos"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:13
+#, fuzzy
+#| msgid "Photos"
+msgctxt "shortcut window"
+msgid "Photo view"
+msgstr "ಫೋಟೋಸ್"
+
+#: ../src/photos-help-overlay.ui.h:14
+msgctxt "shortcut window"
+msgid "Edit"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:15
+#, fuzzy
+#| msgid "Exposure"
+msgctxt "shortcut window"
+msgid "Export"
+msgstr "ತೆರೆದಿಡುವುದು"
+
+#: ../src/photos-help-overlay.ui.h:16
+#, fuzzy
+#| msgid "Print"
+msgctxt "shortcut window"
+msgid "Print"
+msgstr "ಮುದ್ರಿಸು"
+
+#: ../src/photos-help-overlay.ui.h:17
+#, fuzzy
+#| msgid "Delete"
+msgctxt "shortcut window"
+msgid "Delete"
+msgstr "ಅಳಿಸು"
+
+#: ../src/photos-help-overlay.ui.h:18
+msgctxt "shortcut window"
+msgid "Action menu"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:19
+#, fuzzy
+#| msgid "Fullscreen"
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "ಪೂರ್ಣತೆರೆ"
+
+#: ../src/photos-help-overlay.ui.h:20
+msgctxt "shortcut window"
+msgid "Edit view"
+msgstr ""
+
+#: ../src/photos-help-overlay.ui.h:21
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "shortcut window"
+msgid "Cancel"
+msgstr "ರದ್ದುಗೊಳಿಸು"
+
+#. Translators: %s refers to an online account provider, e.g.,
+#. * "Facebook" or "Flickr.
+#.
+#: ../src/photos-indexing-notification.c:172
+#, c-format
+msgid "Fetching photos from %s"
+msgstr ""
+
+#: ../src/photos-indexing-notification.c:175
+msgid "Fetching photos from online accounts"
+msgstr ""
+
+#: ../src/photos-indexing-notification.c:211
+msgid "Your photos are being indexed"
+msgstr ""
+
+#: ../src/photos-indexing-notification.c:212
+msgid "Some photos might not be available during this process"
+msgstr ""
+
+#: ../src/photos-local-item.c:132 ../src/photos-source-manager.c:178
+msgid "Local"
+msgstr "ಸ್ಥಳೀಯ"
+
+#: ../src/photos-main-toolbar.c:113
+msgid "Click on items to select them"
+msgstr "ಅಂಶಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../src/photos-main-toolbar.c:115
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
+msgstr[1] "%d ಅನ್ನು ಆರಿಸಲಾಗಿದೆ"
+
+#: ../src/photos-main-toolbar.c:165
+msgid "Back"
+msgstr "ಹಿಂದಕ್ಕೆ"
+
+#: ../src/photos-main-toolbar.c:314
+msgid "Select Items"
+msgstr ""
+
+#. length == 1
+#. Translators: this is the Open action in a context menu
+#: ../src/photos-main-toolbar.c:408 ../src/photos-selection-toolbar.c:234
+#, c-format
+msgid "Open with %s"
+msgstr "\"%s\" ನೊಂದಿಗೆ ತೆರೆ"
+
+#: ../src/photos-main-toolbar.c:448 ../src/photos-selection-toolbar.c:245
+msgid "Remove from favorites"
+msgstr "ಎಲ್ಲಾ ಅಚ್ಚುಮೆಚ್ಚಿನವುಗಳನ್ನು ತೆಗೆದುಹಾಕು"
+
+#: ../src/photos-main-toolbar.c:453 ../src/photos-selection-toolbar.c:250
+msgid "Add to favorites"
+msgstr "ಅಚ್ಚುಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸು"
+
+#: ../src/photos-main-toolbar.c:490 ../src/photos-main-toolbar.c:623
+msgid "Cancel"
+msgstr "ರದ್ದುಗೊಳಿಸು"
+
+#: ../src/photos-main-toolbar.c:494
+msgid "Done"
+msgstr "ಆಯಿತು"
+
+#: ../src/photos-main-window.c:492
+msgid ""
+"Copyright © 2013 Intel Corporation. All rights reserved.\n"
+"Copyright © 2014 – 2015 Pranav Kant\n"
+"Copyright © 2012 – 2016 Red Hat, Inc."
+msgstr ""
+
+#. Translators: Put your names here
+#: ../src/photos-main-window.c:502
+msgid "translator-credits"
+msgstr "karthik339 <karthik339@gmail.com>; ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
+
+#: ../src/photos-menus.ui.h:1
+msgid "Fullscreen"
+msgstr "ಪೂರ್ಣತೆರೆ"
+
+#: ../src/photos-menus.ui.h:2
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ../src/photos-menus.ui.h:3
+msgid "_Help"
+msgstr "ಸಹಾಯ (_H)"
+
+#: ../src/photos-menus.ui.h:4
+msgid "About"
+msgstr ""
+
+#: ../src/photos-menus.ui.h:5
+msgid "Quit"
+msgstr "ನಿರ್ಗಮಿಸು"
+
+#: ../src/photos-organize-collection-dialog.c:76
+msgid "_Add"
+msgstr ""
+
+#: ../src/photos-organize-collection-dialog.c:77
+msgid "_OK"
+msgstr ""
+
+#. Translators: "Organize" refers to photos in this context
+#: ../src/photos-organize-collection-dialog.c:128
+msgctxt "Dialog title"
+msgid "Organize"
+msgstr "ವ್ಯವಸ್ಥಿತವಾಗಿ ಜೋಡಿಸು"
+
+#: ../src/photos-preview-menu.ui.h:2
+msgid "Export…"
+msgstr ""
+
+#: ../src/photos-preview-menu.ui.h:3
+msgid "Print…"
+msgstr "ಮುದ್ರಿಸು..."
+
+#: ../src/photos-preview-menu.ui.h:4
+msgid "Delete"
+msgstr "ಅಳಿಸು"
+
+#: ../src/photos-preview-menu.ui.h:5
+msgid "Display on…"
+msgstr ""
+
+#: ../src/photos-preview-menu.ui.h:6
+msgid "Set as Background"
+msgstr "ಗಣಕತೆರೆಯ ಹಿನ್ನಲೆಯಾಗಿಸು"
+
+#: ../src/photos-preview-menu.ui.h:7
+#, fuzzy
+#| msgid "Set as Background"
+msgid "Set as Lock Screen"
+msgstr "ಗಣಕತೆರೆಯ ಹಿನ್ನಲೆಯಾಗಿಸು"
+
+#: ../src/photos-preview-menu.ui.h:8 ../src/photos-properties-dialog.c:619
+#: ../src/photos-selection-toolbar.ui.h:3
+msgid "Properties"
+msgstr "ಗುಣಗಳು"
+
+#: ../src/photos-print-notification.c:79
+#, c-format
+msgid "Printing “%s”: %s"
+msgstr ""
+
+#: ../src/photos-print-operation.c:271
+msgid "Image Settings"
+msgstr "ಚಿತ್ರದ ಸಿದ್ಧತೆಗಳು"
+
+#: ../src/photos-print-setup.c:914
+msgid "Position"
+msgstr "ಸ್ಥಾನ"
+
+#: ../src/photos-print-setup.c:917
+msgid "_Left:"
+msgstr "ಎಡ (_L):"
+
+#: ../src/photos-print-setup.c:918
+msgid "_Right:"
+msgstr "ಬಲ (_R):"
+
+#: ../src/photos-print-setup.c:919
+msgid "_Top:"
+msgstr "ಮೇಲೆ (_T):"
+
+#: ../src/photos-print-setup.c:920
+msgid "_Bottom:"
+msgstr "ಕೆಳಗೆ (_B):"
+
+#: ../src/photos-print-setup.c:922
+msgid "C_enter:"
+msgstr "ಮಧ್ಯ (_e):"
+
+#: ../src/photos-print-setup.c:926
+msgid "None"
+msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#: ../src/photos-print-setup.c:927
+msgid "Horizontal"
+msgstr "ಅಡ್ಡ"
+
+#: ../src/photos-print-setup.c:928
+msgid "Vertical"
+msgstr "ಲಂಬ"
+
+#: ../src/photos-print-setup.c:929
+msgid "Both"
+msgstr "ಉಭಯ"
+
+#: ../src/photos-print-setup.c:945
+msgid "_Width:"
+msgstr "ಅಗಲ (_W):"
+
+#: ../src/photos-print-setup.c:946
+msgid "_Height:"
+msgstr "ಉದ್ದ (_H):"
+
+#: ../src/photos-print-setup.c:948
+msgid "_Scaling:"
+msgstr "ಸ್ಕೇಲಿಂಗ್ (_S):"
+
+#: ../src/photos-print-setup.c:957
+msgid "_Unit:"
+msgstr "ಘಟಕ (_U):"
+
+#: ../src/photos-print-setup.c:961
+msgid "Millimeters"
+msgstr "ಮಿಲಿಮೀಟರುಗಳು"
+
+#: ../src/photos-print-setup.c:962
+msgid "Inches"
+msgstr "ಇಂಚುಗಳು"
+
+#: ../src/photos-print-setup.c:990
+msgid "Preview"
+msgstr "ಮುನ್ನೋಟ"
+
+#. Translators: this is the label next to the photo title in the
+#. * properties dialog
+#.
+#: ../src/photos-properties-dialog.c:231
+msgctxt "Document Title"
+msgid "Title"
+msgstr "ಶೀರ್ಷಿಕೆ"
+
+#. Translators: this is the label next to the photo author in
+#. * the properties dialog
+#.
+#: ../src/photos-properties-dialog.c:243
+msgctxt "Document Author"
+msgid "Author"
+msgstr "ಕರ್ತೃ"
+
+#: ../src/photos-properties-dialog.c:250
+msgid "Source"
+msgstr "ಆಕರ"
+
+#: ../src/photos-properties-dialog.c:256
+msgid "Date Modified"
+msgstr "ದಿನಾಂಕ ಮಾರ್ಪಡಿಸಲಾದ"
+
+#: ../src/photos-properties-dialog.c:264
+msgid "Date Created"
+msgstr "ರಚಿಸಿದ ದಿನಾಂಕ"
+
+#. Translators: this is the label next to the photo type in the
+#. * properties dialog
+#.
+#: ../src/photos-properties-dialog.c:274
+msgctxt "Document Type"
+msgid "Type"
+msgstr "ಬಗೆ"
+
+#: ../src/photos-properties-dialog.c:283
+msgid "Width"
+msgstr "ಅಗಲ"
+
+#: ../src/photos-properties-dialog.c:293
+msgid "Height"
+msgstr "ಎತ್ತರ"
+
+#: ../src/photos-properties-dialog.c:308
+msgid "Camera"
+msgstr "ಕ್ಯಾಮೆರಾ"
+
+#: ../src/photos-properties-dialog.c:318
+msgid "Exposure"
+msgstr "ತೆರೆದಿಡುವುದು"
+
+#: ../src/photos-properties-dialog.c:328
+msgid "Aperture"
+msgstr "ಬೆಳಕಿಂಡಿ"
+
+#: ../src/photos-properties-dialog.c:338
+msgid "Focal Length"
+msgstr "ಫೋಕಲ್ ಲೆನ್ತ್"
+
+#: ../src/photos-properties-dialog.c:348
+msgid "ISO Speed"
+msgstr "ISO ವೇಗ"
+
+#: ../src/photos-properties-dialog.c:358
+msgid "Flash"
+msgstr "ಮಿಂಚು"
+
+#: ../src/photos-properties-dialog.c:498
+msgid "Off, did not fire"
+msgstr ""
+
+#: ../src/photos-properties-dialog.c:500
+msgid "On, fired"
+msgstr ""
+
+#: ../src/photos-search-match-manager.c:158
+#: ../src/photos-search-type-manager.c:112 ../src/photos-source-manager.c:174
+msgid "All"
+msgstr "ಎಲ್ಲಾ"
+
+#. Translators: "Title" refers to "Match Title" when searching.
+#: ../src/photos-search-match-manager.c:165
+#, fuzzy
+#| msgctxt "Document Title"
+#| msgid "Title"
+msgctxt "Search Filter"
+msgid "Title"
+msgstr "ಶೀರ್ಷಿಕೆ"
+
+#. Translators: "Author" refers to "Match Author" when searching.
+#: ../src/photos-search-match-manager.c:172
+#, fuzzy
+#| msgctxt "Document Author"
+#| msgid "Author"
+msgctxt "Search Filter"
+msgid "Author"
+msgstr "ಕರ್ತೃ"
+
+#. Translators: this is a verb that refers to "All", "Title" and
+#. * "Author", as in "Match All", "Match Title" and "Match Author".
+#.
+#: ../src/photos-search-match-manager.c:210
+msgid "Match"
+msgstr ""
+
+#. Translators: "Type" refers to a search filter. eg., All, Albums,
+#. * Favorites and Photos.
+#.
+#: ../src/photos-search-type-manager.c:168
+#, fuzzy
+#| msgctxt "Document Type"
+#| msgid "Type"
+msgctxt "Search Filter"
+msgid "Type"
+msgstr "ಬಗೆ"
+
+#: ../src/photos-selection-menu.ui.h:1
+msgid "Select All"
+msgstr "ಎಲ್ಲವನ್ನು ಆರಿಸು "
+
+#: ../src/photos-selection-menu.ui.h:2
+msgid "Select None"
+msgstr "ಏನನ್ನೂ ಆರಿಸಬೇಡ"
+
+#: ../src/photos-selection-toolbar.ui.h:1
+#, fuzzy
+#| msgid "Exposure"
+msgid "Export"
+msgstr "ತೆರೆದಿಡುವುದು"
+
+#: ../src/photos-selection-toolbar.ui.h:4
+msgid "Add to Album"
+msgstr ""
+
+#: ../src/photos-source-manager.c:203
+#, fuzzy
+#| msgid "Source"
+msgid "Sources"
+msgstr "ಆಕರ"
+
+#: ../src/photos-tool-colors.c:251
+msgid "Brightness"
+msgstr ""
+
+#: ../src/photos-tool-colors.c:272
+msgid "Contrast"
+msgstr ""
+
+#: ../src/photos-tool-colors.c:292
+msgid "Saturation"
+msgstr ""
+
+#: ../src/photos-tool-colors.c:319
+msgid "Colors"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:132
+msgid "Free"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:133
+msgid "Original"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:134
+msgid "1×1 (Square)"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:135
+msgid "10×8 / 5×4"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:136
+msgid "4×3 / 8×6 (1024×768)"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:137
+msgid "7×5"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:138
+msgid "3×2 / 6×4"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:139
+msgid "16×10 (1280×800)"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:140
+msgid "16×9 (1920×1080)"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:1178
+msgid "Lock aspect ratio"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:1226
+msgid "Reset"
+msgstr ""
+
+#: ../src/photos-tool-crop.c:1243
+msgid "Crop"
+msgstr ""
+
+#: ../src/photos-tool-enhance.c:207
+msgid "Sharpen"
+msgstr ""
+
+#: ../src/photos-tool-enhance.c:227
+msgid "Denoise"
+msgstr ""
+
+#: ../src/photos-tool-enhance.c:253
+#, fuzzy
+#| msgid "Cancel"
+msgid "Enhance"
+msgstr "ರದ್ದುಗೊಳಿಸು"
+
+#. Translators: "None" refers to the nop magic filter when editing.
+#: ../src/photos-tool-filters.c:192
+#, fuzzy
+#| msgid "None"
+msgctxt "Edit Filter"
+msgid "None"
+msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#: ../src/photos-tool-filters.c:199
+msgid "1947"
+msgstr ""
+
+#: ../src/photos-tool-filters.c:206
+msgid "Calistoga"
+msgstr ""
+
+#: ../src/photos-tool-filters.c:212
+msgid "Mogadishu"
+msgstr ""
+
+#: ../src/photos-tool-filters.c:219
+msgid "Caap"
+msgstr ""
+
+#: ../src/photos-tool-filters.c:225
+msgid "Hometown"
+msgstr ""
+
+#: ../src/photos-tool-filters.c:243
+#, fuzzy
+#| msgid "Millimeters"
+msgid "Filters"
+msgstr "ಮಿಲಿಮೀಟರುಗಳು"
+
+#: ../src/photos-tracker-controller.c:98
+msgid "Unable to fetch the list of photos"
+msgstr ""
+
+#~ msgid "%a, %d %B %Y  %X"
+#~ msgstr "%a, %d %B %Y  %X"
+
+#~ msgid "%.1f (lens)"
+#~ msgstr "%.1f (ಲೆನ್ಸ್‍)"
+
+#~ msgid "%.1f (35mm film)"
+#~ msgstr "%.1f (35mm ಫಿಲ್ಮ್‍)"
+
+#~ msgid "Transformation on unloaded image."
+#~ msgstr "ಲೋಡ್ ಆಗದೆ ಇರುವ ಚಿತ್ರದಲ್ಲಿನ ರೂಪಾಂತರ."
+
+#~ msgid "Transformation failed."
+#~ msgstr "ರೂಪಾಂತರವು ವಿಫಲಗೊಂಡಿದೆ."
+
+#~ msgid "EXIF not supported for this file format."
+#~ msgstr "ಈ ಬಗೆಯ ಕಡತದ ವಿನ್ಯಾಸಕ್ಕೆ EXIF ಬೆಂಬಲವಿಲ್ಲ."
+
+#~ msgid "Image loading failed."
+#~ msgstr "ಚಿತ್ರ ಲೋಡ್ ಮಾಡುವಿಕೆಯು ವಿಫಲಗೊಂಡಿದೆ."
+
+#~ msgid "No image loaded."
+#~ msgstr "ಯಾವ ಚಿತ್ರಗಳೂ ಲೋಡ್ ಆಗಿಲ್ಲ."
+
+#~ msgid "Temporary file creation failed."
+#~ msgstr "ತಾತ್ಕಾಲಿಕ ಕಡತದ ರಚನೆಯಲ್ಲಿ ವಿಫಲತೆ."
+
+#~ msgid "At least two file names are equal."
+#~ msgstr "ಕನಿಷ್ಟ ಎರಡು ಕಡತದ ಹೆಸರುಗಳು ಒಂದೇ ರೀತಿ ಇವೆ."
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (ಅಮಾನ್ಯ ಯುನಿಕೋಡ್)"
+
+#~ msgid "About Photos"
+#~ msgstr "ಫೋಟೋಸ್ ಬಗ್ಗೆ"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Load More"
+#~ msgstr "ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡು"
+
+#~ msgid "Loading…"
+#~ msgstr "ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…"
